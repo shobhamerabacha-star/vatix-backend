@@ -5,10 +5,7 @@ node_modules/
 dist/
 
 # Environment
-.env
-.env.*
 !.env.example
-.env.local
 
 # Logs
 logs/
@@ -33,3 +30,4 @@ somzilla.md
 
 # Local notes (personal planning docs — never committed)
 /notes/
+config.bat
