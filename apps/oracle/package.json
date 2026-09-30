@@ -5,8 +5,8 @@
   "main": "main.ts",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch main.ts",
-    "start": "tsx main.ts",
+    "dev": "node init && tsx watch main.ts",
+    "start": "node init && tsx main.ts",
     "test": "vitest",
     "test:run": "vitest run"
   },
